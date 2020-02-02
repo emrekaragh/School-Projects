@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:id="@+id/sv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvTarih"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tarih" />
+
+            <ImageView
+                android:id="@+id/ivGorsel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:srcCompat="@tools:sample/backgrounds/scenic[16]" />
+
+            <TextView
+                android:id="@+id/tvBaslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Baslik Buraya"
+                />
+
+            <TextView
+                android:id="@+id/tvIcerik"
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                android:text="Icerik" />
+
+            <EditText
+                android:id="@+id/tvGoruntulenme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvBegenme"
+                    android:layout_width="208dp"
+                    android:layout_height="match_parent"
+                    android:text="Begenme" />
+
+                <TextView
+                    android:id="@+id/tvBegenmeme"
+                    android:layout_width="201dp"
+                    android:layout_height="57dp"
+                    android:text="   Begenmeme" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonBegenme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Begendim" />
+
+                <Button
+                    android:id="@+id/buttonBegenmeme"
+                    android:layout_width="203dp"
+                    android:layout_height="wrap_content"
+                    android:text="Begenmedim" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonGeri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Geri" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">yazlab22t1</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="spinner_array">
+        <item>Hepsi</item>
+        <item>SonDakika</item>
+        <item>Spor</item>
+        <item>Siyaset</item>
+        <item>Ekonomi</item>
+        <item>Saglik</item>
+        <item>Gundem</item>
+    </string-array>
+</resources>
