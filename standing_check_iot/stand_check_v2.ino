@@ -13,12 +13,8 @@ bool mode_check=false;
 String sitting_period;
 
 //// Wi-Fi fields
-//String ag_ismi = "FiberHGW_ZTFR2N_2.4GHz";                   //Ağımızın adını buraya yazıyoruz.    
-//String ag_sifresi = "sACKDr7PFT";             //Ağımızın şifresini buraya yazıyoruz.
-//String ag_ismi = "Kara";                   //Ağımızın adını buraya yazıyoruz.    
-//String ag_sifresi = "emre8912";             //Ağımızın şifresini buraya yazıyoruz.
-String ag_ismi = "AslanBuyukTakim";                   //Ağımızın adını buraya yazıyoruz.    
-String ag_sifresi = "mustafa3702";             //Ağımızın şifresini buraya yazıyoruz.
+String ag_ismi = "";                   //Ağımızın adını buraya yazıyoruz.    
+String ag_sifresi = "";             //Ağımızın şifresini buraya yazıyoruz.
 
 int rxPin = 2;                                               //ESP8266 RX pini
 int txPin = 3;                                               //ESP8266 TX pini
